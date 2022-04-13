@@ -1,0 +1,860 @@
+    1  ls
+    2  pwd
+    3  ls -l
+    4  cd bin
+    5  ls -ltr 
+    6  cd \
+    7  pwd
+    8  cd
+    9  ls
+   10  ls -l
+   11  cd /
+   12  ls -l
+   13  cd home
+   14  ls -ltr
+   15  ls -l
+   16  pwd
+   17  cd /
+   18  Authenticating with public key "imported-openssh-key"
+   19  cd /
+   20  pwd
+   21  ls
+   22  cd /
+   23  ls
+   24  cd /
+   25  ls
+   26  ls 
+   27  aclear
+   28  clear
+   29  ls -ltr
+   30  pwd
+   31  cat
+   32  pwd
+   33  cd /
+   34  ls 
+   35  cd var
+   36  ls
+   37  cd log
+   38  ls
+   39  pwd
+   40  clear
+   41  pwd
+   42  cd /var/log
+   43  pwd
+   44  cd -
+   45  cd /var/log
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  ls
+   50  ls -l
+   51  ls -l -r
+   52  cd /
+   53  cd home
+   54  pwd
+   55  ls
+   56  cd ..
+   57  pwd
+   58  help ls
+   59  help help
+   60  help -d
+   61  pwd
+   62  cd /var/log
+   63  cd ..
+   64  pwd
+   65  ls
+   66  ls -l
+   67  ls -lr
+   68  cd /
+   69  cd home
+   70  man ls
+   71  pwd
+   72  cd /var/log
+   73  cd ..
+   74  pwd
+   75  ls
+   76  ls -l
+   77  ls -lr
+   78  cd /
+   79  cd home
+   80  cd ..
+   81  man ls
+   82  cd /var
+   83  ls -lsr
+   84  uname -a
+   85  history > sauchoychac.220405.module2
+   86  cd home
+   87  cd/
+   88  cd /
+   89  cd home
+   90  pwd
+   91  ls
+   92  cd ec2-user
+   93  ls
+   94  history > sauchoy.220405.module2
+   95  ls
+   96  cat sauchoy.220405.module2
+   97  cd /home
+   98  pwd
+   99  cd /home
+  100  cd/
+  101  cd /
+  102  ls
+  103  cd var
+  104  cd /home
+  105  pwd
+  106  ls -l
+  107  pwd
+  108  cd /
+  109  ls
+  110  cd home
+  111  ls
+  112  cd ec2-user
+  113  ls
+  114  pwd
+  115  pwd
+  116  ls
+  117  ls -ltr
+  118  echo a > test.txt
+  119  ls -ltr
+  120  cat test.txt
+  121  ls
+  122  ls -ltr
+  123  echo hello world
+  124  STOCK=AAPL
+  125  echo STOCK
+  126  echo $STOCK
+  127  STOCK="$STOCK _US"
+  128  echo $STOCK
+  129  STOCK=APPL_US
+  130  echo $STOCK
+  131  PRICE = 290.84
+  132  PRICE=290.84
+  133  echo $PRICE
+  134  echo The current price of $STOCK is $PRICE
+  135  WHOAMI=$USER
+  136  echo WHOAMI
+  137  echo $WHOAMI
+  138  uname
+  139  SERVERTYPE=$uname
+  140  echo SERVERTYPE
+  141  echo $SERVERTYPE
+  142  uname
+  143  echo $SERVERTYPE
+  144  SERVERTYPE=($uname)
+  145  echo $SERVERTYPE
+  146  echo ($SERVERTYPE)
+  147  echo `$SERVERTYPE`
+  148  echo $($SERVERTYPE)
+  149  SERVERTYPE=$uname
+  150  echo $($SERVERTYPE)
+  151  cd /home
+  152  pwd
+  153  mkdir Algo1
+  154  ls
+  155  mkdir Algo1
+  156  cd ec2-user
+  157  mkdir Algo1
+  158  ls
+  159  cd ALgo1
+  160  cd Algo1
+  161  mkdir config bin logs scripts
+  162  ls
+  163  cd config
+  164  touch config.config variables
+  165  ls
+  166  cd ..
+  167  cd scripts
+  168  touch start.sh stop.sh admin.sh
+  169  ls
+  170  cd ..
+  171  cd logs
+  172  touch today.log
+  173  cd /home
+  174  ls -lr
+  175  cd ec2-user
+  176  ls -lr
+  177  cd Algo1
+  178  cd config
+  179  ls
+  180  rm variables
+  181  ls
+  182  cd ..
+  183  ls
+  184  rm -r bin
+  185  ls
+  186  cd ..
+  187  pwd
+  188  cd Algo1
+  189  ls
+  190  mkdir bin
+  191  ls
+  192  cd logs
+  193  pwd
+  194  mkdir oldlogs
+  195  ls
+  196  cd oldlogs
+  197  mkdir 2019 2018 2017
+  198  ls
+  199  cd 2017
+  200  touch 2017.log
+  201  cd ..
+  202  cd 2018
+  203  touch 2018.log
+  204  cd ..
+  205  cd 2019
+  206  touch 2019.log
+  207  cd /home/ec2-user
+  208  ls
+  209  rm *.oldlogs
+  210  rm -r ~/Algo1/logs oldlogs
+  211  pwd
+  212  ls
+  213  rm -r /Algo1/logs oldlogs
+  214  rm -r ~/Algo1/logs oldlogs
+  215  cd Algo1
+  216  ls
+  217  mkdir logs
+  218  ls
+  219  cd logs
+  220  touch today.log
+  221  ls
+  222  mkdir 2017 2018 2019
+  223  ls
+  224  cd 2017
+  225  touch 2017.log
+  226  cd ..
+  227  cd 2018
+  228  touch 2018.log
+  229  cd ..
+  230  cd 2019
+  231  touch 2019.log
+  232  cd ..
+  233  ls
+  234  cd ..
+  235  cd /home
+  236  cd ec2-user
+  237  ls
+  238  pwd
+  239  ls ~/Algo1
+  240  ls ~/Algo1/logs
+  241  rm ~/Algo1/logs 2017 
+  242  ls
+  243  ls ~/Algo1
+  244  ls ~/Algo1/logs
+  245  pwd
+  246  rm ~/Algo1/logs/2017
+  247  rm -r  ~/Algo1/logs/2017
+  248  ls ~Algo1/logs
+  249  ls ~/Algo1/logs
+  250  rm -r  ~/Algo1/logs/2018
+  251  rm -r  ~/Algo1/logs/2019
+  252  ls ~/Algo1/logs
+  253  cd Algo1
+  254  cd logs
+  255  pwd
+  256  mkdir oldlogs
+  257  ls
+  258  cd oldlogs
+  259  mkdir 2017 2018 2019
+  260  ls
+  261  cd 2017
+  262  touhch 2017.log
+  263  touch 2017.log
+  264  cd ..
+  265  cd 2018
+  266  touch 2018.log
+  267  cd ..
+  268  cd 2019
+  269  touch 2019.log
+  270  ls
+  271  cd /home/ec2-user
+  272  pwd
+  273  rm -r  ~/Algo1/logs/oldlogs
+  274  ls  ~/Algo1/logs/
+  275  pwd
+  276  find /home -name*.sh
+  277  find /home -name *.sh
+  278  cd /Algo1/scripts
+  279  cd /Algo1/
+  280  cd Algo1
+  281  cd scripts
+  282  pwd
+  283  ls
+  284  rm s*.sh
+  285  ls
+  286  cd /home/ec2-user
+  287  pwd
+  288  ls
+  289  history > sauchoy.220405.module3
+  290  cat sauchoy.220405.module3
+  291  echo $STOCK
+  292  STOCK=AAPL
+  293  echo $STOCK
+  294  STOCK=$STOCK _US
+  295  STOCK=$STOCK + _US
+  296  pwd
+  297  ls
+  298  cd Payment1
+  299  ls
+  300  cd configuartion
+  301  cd configuration
+  302  ls
+  303  chmod og-w instance.properties
+  304  chmod u=rwx,og=r instance.properties
+  305  cd ..
+  306  pwd
+  307  rm -r Payment1
+  308  ls
+  309  STOCK=APPL
+  310  echo $STOCK
+  311  STOCK=AAPL_US
+  312  echo $STOCK
+  313  PRICE=290.84
+  314  echo PRICE
+  315  echo $PRICE
+  316  echo The Current Price of $STOCK is $PRICE
+  317  WHOAMI=$USER
+  318  echo $WHOAMI
+  319  SERVERTYPE=$(uname)
+  320  echo $SERVERTYPE
+  321  CMD='$uname'
+  322  echo $CMD
+  323  echo "$CMD"
+  324  echo `$CMD`
+  325  CMD='uname'
+  326  echo $CMD
+  327  echo `$CMD`
+  328  echo $CMD
+  329  cd /home
+  330  pwd
+  331  cd ec2-user
+  332  pwd
+  333  mkdir scripts
+  334  ls
+  335  echo $PATH
+  336  PATH=/home/ec2-user
+  337  echo $PATH
+  338  rm -r Algo1
+  339  ls
+  340  pwd
+  341  ls
+  342  pwd
+  343  echo e
+  344  ls -l
+  345  cd /home
+  346  ls
+  347  cd /home/ec2-user
+  348  ls
+  349  cd Algo1
+  350  ls
+  351  cd ..
+  352  PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+  353  ls
+  354  PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+  355  ls
+  356  PATH=${PATH}/scripts
+  357  echo $PATH
+  358  ls
+  359  PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/ec2-user/.local/bin:/home/ec2-user/bin
+  360  ls
+  361  rm -r Algo1
+  362  ls
+  363  mkdir Payment1
+  364  ls
+  365  cd Payment1
+  366  mkdir logs configuration scripts
+  367  cd scripts
+  368  PATH=${PATH}/scripts
+  369  touch start.sh
+  370  cd ..
+  371  cd configuration
+  372  touch instance.properties
+  373  ls
+  374  STOCK=AAPL
+  375  echo $STOCK
+  376  STOCK=${STOCK}_US
+  377  echo $STOCK
+  378  PRICE=290.84
+  379  echo $PRICE
+  380  echo The current price of $STOCK is $PRICE
+  381  WHOAMI=$USER
+  382  echo $WHOAMI
+  383  SERVERTYPE=$(uname)
+  384  echo $SERVERTYPE
+  385  CMD='$uname'
+  386  echo $CMD 
+  387  echo `$CMD`
+  388  echo "$CMD"
+  389  echo '$CMD'
+  390  CMD = $uname
+  391  CMD= $uname
+  392  echo $CMD
+  393  CMD= '$uname'
+  394  CMD='$uname'
+  395  echo $CMD
+  396  echo `$CMD`
+  397  echo '$CMD'
+  398  uname -i
+  399  CMD='uname -i'
+  400  echo $CMD
+  401  echo `$CMD`
+  402  echo $CMD
+  403  cd /home
+  404  pwd
+  405  cd ec2-user
+  406  pwd
+  407  ls
+  408  echo $PATH
+  409  PATH=${PATH}/scripts
+  410  echo $PATH
+  411  ls
+  412  cd scripts
+  413  ls
+  414  cd ..
+  415  mkdir Payment1
+  416  mkdir logs configuration scripts
+  417  ls
+  418  rm -r logs
+  419  rm -r configuration
+  420  ls
+  421  cd Payment1
+  422  mkdir logs configuration scripts
+  423  ls
+  424  cd scripts
+  425  touch start.sh
+  426  ls
+  427  cd ..
+  428  cd configuration
+  429  touch instance.properties
+  430  ls
+  431  chmod u=rwx,og=r instance.properties
+  432  ls
+  433  cd ..
+  434  cd scripts
+  435  ls
+  436  chmod og=r--, u=rwx start.sh
+  437  chmod og=r, u=rwx start.sh
+  438  chmod u=rwx,og=r start.sh
+  439  cd ..
+  440  pwd
+  441  man cat cat.output
+  442  ls
+  443  cat.output=`man cat`
+  444  man cat
+  445  man cat > cat.output
+  446  ls
+  447  echo cat.output
+  448  cat cat.output
+  449  chmod u=rwx,o=r,g=wx cat.output
+  450  ls
+  451  pwd
+  452  rm cat.output
+  453  ls
+  454  rm -r Payment1
+  455  ls
+  456  man cat > cat.output
+  457  ls
+  458  rm -i cat.output
+  459  ls
+  460  mkir temp
+  461  mkdir temp
+  462  ls
+  463  MYTEMP=../../temp
+  464  echo $temp
+  465  echo $TEMP
+  466  MYTEMP=/../../temp
+  467  echo $TEMP
+  468  pwd
+  469  MYTEMP=/home/ec2-user/temp
+  470  echo $TEMP
+  471  echo '$TEMP'
+  472  echo `$TEMP`
+  473  TEMP="/home/ec2-user/temp"
+  474  echo $TEMP
+  475  env -u TEMP
+  476  ls
+  477  echo $TEMP
+  478  env
+  479  MYTEMP=""
+  480  TEMP=""
+  481  echo $temp
+  482  echo $TEMP
+  483  echo $test
+  484  ls
+  485  rm -r temp
+  486  ls
+  487  History > Sauchoy.220406.module4
+  488  history > Sauchoy.220406.module4
+  489  ls
+  490  cat Sauchoy.220406.module4
+  491  cd ~
+  492  pwd
+  493  vim vi fixGenerator.sh
+  494  ls
+  495  cat vi
+  496  rm vi
+  497  ls
+  498  vi fixGenerator.sh
+  499  ls
+  500  cat fixGenerator.sh
+  501  chmod 744 fixGenerator.sh
+  502  ls
+  503  cat fixGenerator.sh
+  504  cat -l fixGenerator.sh
+  505  cat -n  fixGenerator.sh
+  506  ls
+  507  rm fixGenerator.sh
+  508  ls
+  509  cd ~
+  510  vi fixGenerator.sh
+  511  chmod 744 fixGenerator.sh
+  512  ls
+  513  ./fixGenerator.sh &
+  514  ls
+  515  cat fixGenerator.sh
+  516  cat -n fixGenerator.sh
+  517  ls
+  518  cat fixlog20220407094041.log > newlog.log
+  519  ls
+  520  mkdir logs
+  521  ls
+  522  mv newlog.log logs/.
+  523  ls
+  524  cd logs
+  525  ls
+  526  cd ..
+  527  cat fixlog20220407094041.log >> ~/logs/newlog.log
+  528  cd logs
+  529  ls
+  530  In -s newlog.log Daily
+  531  ln -s newlog.log Daily
+  532  cd ..
+  533  cat fixlog20220407094041.log|less
+  534  grep new fixlog20220407094041.log > newOrders.log
+  535  ls
+  536  cat newOrders.log
+  537  mv newOrders.log logs/.
+  538  ls
+  539  cd logs
+  540  ls
+  541  pwd
+  542  ls
+  543  cd logs
+  544  ls
+  545  rm newOrders.log
+  546  ls
+  547  cat newlog.log
+  548  cd ~
+  549  pwd
+  550  ls
+  551  cat fixlog20220407094041.log|less
+  552  grep 60= fixlog20220407094041.log > /logs/newOrders.log
+  553  grep 60= fixlog20220407094041.log > ~/logs/newOrders.log
+  554  ls
+  555  cd logs
+  556  ls
+  557  cat newOrders.log
+  558  cat -n newOrders.log
+  559  cat newOrders.log
+  560  cd ..
+  561  ls
+  562  grep 54=1 fixlog20220407094041.log > ~/logs/buyMessages.log
+  563  cat -n ~/logs/buyMessages.log
+  564  grep -c 60= ~/logs/buyMessages.log
+  565  grep -v 60= ~/logs/noNewOrders.log
+  566  grep -v 60= > ~/logs/noNewOrders.log
+  567  ls
+  568  cd logs
+  569  ls
+  570  cat noNewOrders.log
+  571  ls
+  572  cat fixGenerator.sh
+  573  ls
+  574  cat -n fixlog20220407094041.log
+  575  ls
+  576  cd logs
+  577  ls
+  578  cat newlog.log
+  579  cd ~
+  580  ls
+  581  cat fix20220407094041.log |less
+  582  cat fix20220407094041.log|less
+  583  cat fixlog202204070941.log|less
+  584  cat fixlog202204070941.log |less
+  585  cat fixlog20220407094041.log |less
+  586  cd logs
+  587  ls
+  588  rm newOrders.log
+  589  rm noNewOrders.log
+  590  ls
+  591  rm buyMessages.log
+  592  ls
+  593  cd ..
+  594  ls
+  595  grep 35=D fixlog20220407094041.log > ~/logs/newOrders.log
+  596  cd logs
+  597  ls
+  598  cat newOrders.log
+  599  cp ~/logs/newOrders.log > ~/newOrders.log
+  600  cp ~/logs/newOrders.log  ~/newOrders.log
+  601  cd ..
+  602  ls
+  603  cat newOders.log
+  604  cat newOrders.log
+  605  cat -n newOrders.log
+  606  grep 54=1 
+  607  ls 
+  608  grep 54=1 fixlog20220407094041.log > ~/logs/buyMessages.log
+  609  cd logs
+  610  ld
+  611  ls
+  612  cat buyMessages.log
+  613  wc -l buyMessages.log
+  614  grep -c 35=D buyMessages.log
+  615  cd ..
+  616  ls
+  617  grep -v 35=D fixlog20220407094041.log > ~/logs/noNewOrders.log
+  618  cd logs
+  619  cat noNewOrders.log
+  620  cat -n noNewOrders.log
+  621  wc -w noNewOrders.log
+  622  tail -n 5 noNewOrders.log
+  623  ls
+  624  cd ..
+  625  head -n 2 | grep APPLE
+  626  ls
+  627  head -n 2 fixlog20220407094041.log | grep APPLE
+  628  head -n 2 fixlog20220407094041.log | grep APPL
+  629  head -n 2 fixlog20220407094041.log | grep AAPL
+  630  head -n 2 fixlog20220407094041.log 
+  631  grep AAPL fixlog20220407094041.log | head -n 2
+  632  ln -s fixGenerator.sh fix
+  633  ls
+  634  tail newOrders.log
+  635  tail -f newOrders.log
+  636  mkdir superLogs
+  637  cp -R ~/logs ~/superLogs
+  638  ls
+  639  cd superLogs
+  640  cd
+  641  cd superLogs
+  642  ls
+  643  cd logs
+  644  ls
+  645  cd ..
+  646  rm -r superLogs
+  647  ls
+  648  mkdir superLogs
+  649  cp -a ~/logs ~/superLogs
+  650  ls
+  651  cd superLogs
+  652  ls
+  653  cd logs
+  654  ls
+  655  cd ~
+  656  rm -r superLogs
+  657  ls
+  658  mkdir superLogs
+  659  cp -a ~/logs/. ~/superLogs
+  660  ls
+  661  cd superLogs
+  662  ls
+  663  cd ~
+  664  grep -c FB fixlog20220407094041.log
+  665  wc -w fixlog20220407094041.log
+  666  grep -c '35=D\|NETFLIX' fixlog20220407094041.log 
+  667  history > sauchoy.220407.module5
+  668  cat sauchoy.220407.module5
+  669  grep -c NETFLIX fixlog20220407094041.log
+  670  grep -c 35=D fixlog20220407094041.log
+  671  cat fixlog20220407094041.log | less
+  672  ls
+  673  rm sauchoy.220407.module5
+  674  ls
+  675  grep -c "35=D" fixlog20220407094041.log | grep "NFLX""
+  676  grep -c "35=D" fixlog20220407094041.log | grep "NFLX""
+  677  grep -c "35=D" fixlog20220407094041.log | grep "NFLX"
+  678  grep -c "35=D" fixlog20220407094041.log
+  679  grep -c "NFLX" fixlog20220407094041.log
+  680  grep "35=D" fixlog20220407094041.log | grep -c "NFLX"
+  681  history > sauchoy.220407.module5
+  682  ls
+  683  cat sauchoy.220407.module5
+  684  ps -ef
+  685  echo $USER
+  686  ps -ef | grep ec2-user
+  687  ps -ef | grep ec2-user*
+  688  ps -ef | grep -v ec2-user
+  689  ps -U ec2-user
+  690  ps -u ec2-user
+  691  ps -eo,uid
+  692  ps -ef | grep ec2-user
+  693  ps -ef | grep -v ec2-user
+  694  ps
+  695  ps -f $$
+  696  ps -eo pid,cmd
+  697  ps -eo pid > ~/list
+  698  ls
+  699  cat list
+  700  sleep 300 &
+  701  ps -eo | grep 29677
+  702  ps -e | grep 29677
+  703  ps  | grep 29677
+  704  kill 29677
+  705  ps  | grep 29677
+  706  top
+  707  top -u root
+  708  PING yahoo.com
+  709  ping yahoo.com
+  710  ping yahoo.com > ~/yahoo.route
+  711  ls
+  712  rm yahoo.route
+  713  ls
+  714  traceroute yahoo.com > ~/yahoo.route
+  715  ls
+  716  ln -s yahoo.route rotue
+  717  ls
+  718  netstat -a > ~/output
+  719  ls
+  720  cat output
+  721  mkdir network
+  722  ls
+  723  mv route output network/.
+  724  mv rotue route
+  725  ls
+  726  mv route network/.
+  727  ls
+  728  cd network
+  729  ls
+  730  ifconfig -a
+  731  history > sauchoy.220408.module6
+  732  ls
+  733  mv sauchoy.220408.module6 ~/.
+  734  ls
+  735  cd ..
+  736  ls
+  737  df
+  738  df -h > ~/filesystem.usage
+  739  ls
+  740  cat filesystem.usage
+  741  df -h ~
+  742  df -kh ~
+  743  pwd
+  744  df ~
+  745  df -kh ~ > ~/disk.usage
+  746  ls
+  747  du ~
+  748  du ~ -sh
+  749  rm disk.usage
+  750  rm filesystem.usage
+  751  ls
+  752  du
+  753  du -sh
+  754  du -sh > ~/filesystem.usage
+  755  cat filesystem.usage
+  756  du ~
+  757  du ~ -sh > ~/disk.usage
+  758  cat disk.usage
+  759  du -ah > ~/usage2
+  760  cat usage2
+  761  du /var
+  762  du ~ -Lh
+  763  mkdir disk
+  764  ls
+  765  cp filesystem.usage disk.usage usage2 disk/.
+  766  ls
+  767  cd disk
+  768  ls
+  769  tar -c disk.tar /disk
+  770  tar -c disk.tar ~/disk
+  771  ls
+  772  tar -cvf disk.tar ~/disk
+  773  ls
+  774  tar -tvf disk.tar
+  775  ls
+  776  tar -xf disk.tar
+  777  ls
+  778  cd home
+  779  lss
+  780  ls
+  781  cd ..
+  782  pwd
+  783  ls
+  784  cd disk
+  785  ls
+  786  rm -r home
+  787  ls
+  788  cd ..
+  789  pwd
+  790  ls
+  791  cat disk
+  792  cat disk.usage
+  793  cd disk
+  794  ls
+  795  rm disk.tar
+  796  ls
+  797  tar -cvf disk.tar /disk
+  798  tar -cvf disk.tar ./disk
+  799  tar -cvf disk.tar /home/ec2-user/disk
+  800  ls
+  801  cat disk.tar
+  802  tar -xvf disk.tar
+  803  ls
+  804  rm -r home
+  805  ls
+  806  cd ..
+  807  ls
+  808  cat usage2
+  809  cd disk
+  810  ls
+  811  rm disk.tar
+  812  ls
+  813  tar -cvf disk.tar /disk
+  814  ls
+  815  cat disk.tar
+  816  rm disk.tar
+  817  tar -cvf disk.tar ./disk
+  818  tar -cvf disk.tar ~/disk/
+  819  ls
+  820  cat disk.tar
+  821  tar -xvf disk.tar
+  822  ls
+  823  gzip gzip disk.tar
+  824  gzip disk.tar
+  825  ls
+  826  mkdir newdisk
+  827  rm -r newdisk
+  828  ls
+  829  touch newdisk
+  830  gunzip disk.tar.gz
+  831  ls
+  832  tar -rvf disk.tar newdisk
+  833  ls
+  834  gzip disk.tar
+  835  ls
+  836  cd ..
+  837  mkdir disk_output
+  838  ls
+  839  cd disk
+  840  ls
+  841  tar -xvf disk.tar.gz -C ~/disk_output
+  842  ls
+  843  cd ..
+  844  cd disk_output
+  845  ls
+  846  cd ..
+  847  ls
+  848  gzip -r disk_output
+  849  ls
+  850  cd disk_output
+  851  ls
+  852  cd home
+  853  ls
+  854  cd ec2-user
+  855  ls
+  856  cd disk
+  857  ;s
+  858  ls
+  859  cd ..
+  860  history > sauchoy.220408.module7

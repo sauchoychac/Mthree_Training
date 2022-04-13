@@ -1,0 +1,244 @@
+    1  ls
+    2  pwd
+    3  ls -l
+    4  cd bin
+    5  ls -ltr 
+    6  cd \
+    7  pwd
+    8  cd
+    9  ls
+   10  ls -l
+   11  cd /
+   12  ls -l
+   13  cd home
+   14  ls -ltr
+   15  ls -l
+   16  pwd
+   17  cd /
+   18  Authenticating with public key "imported-openssh-key"
+   19  cd /
+   20  pwd
+   21  ls
+   22  cd /
+   23  ls
+   24  cd /
+   25  ls
+   26  ls 
+   27  aclear
+   28  clear
+   29  ls -ltr
+   30  pwd
+   31  cat
+   32  pwd
+   33  cd /
+   34  ls 
+   35  cd var
+   36  ls
+   37  cd log
+   38  ls
+   39  pwd
+   40  clear
+   41  pwd
+   42  cd /var/log
+   43  pwd
+   44  cd -
+   45  cd /var/log
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  ls
+   50  ls -l
+   51  ls -l -r
+   52  cd /
+   53  cd home
+   54  pwd
+   55  ls
+   56  cd ..
+   57  pwd
+   58  help ls
+   59  help help
+   60  help -d
+   61  pwd
+   62  cd /var/log
+   63  cd ..
+   64  pwd
+   65  ls
+   66  ls -l
+   67  ls -lr
+   68  cd /
+   69  cd home
+   70  man ls
+   71  pwd
+   72  cd /var/log
+   73  cd ..
+   74  pwd
+   75  ls
+   76  ls -l
+   77  ls -lr
+   78  cd /
+   79  cd home
+   80  cd ..
+   81  man ls
+   82  cd /var
+   83  ls -lsr
+   84  uname -a
+   85  history > sauchoychac.220405.module2
+   86  cd home
+   87  cd/
+   88  cd /
+   89  cd home
+   90  pwd
+   91  ls
+   92  cd ec2-user
+   93  ls
+   94  history > sauchoy.220405.module2
+   95  ls
+   96  cat sauchoy.220405.module2
+   97  cd /home
+   98  pwd
+   99  cd /home
+  100  cd/
+  101  cd /
+  102  ls
+  103  cd var
+  104  cd /home
+  105  pwd
+  106  cd /home
+  107  pwd
+  108  mkdir Algo1
+  109  ls
+  110  mkdir Algo1
+  111  cd ec2-user
+  112  mkdir Algo1
+  113  ls
+  114  cd ALgo1
+  115  cd Algo1
+  116  mkdir config bin logs scripts
+  117  ls
+  118  cd config
+  119  touch config.config variables
+  120  ls
+  121  cd ..
+  122  cd scripts
+  123  touch start.sh stop.sh admin.sh
+  124  ls
+  125  cd ..
+  126  cd logs
+  127  touch today.log
+  128  cd /home
+  129  ls -lr
+  130  cd ec2-user
+  131  ls -lr
+  132  cd Algo1
+  133  cd config
+  134  ls
+  135  rm variables
+  136  ls
+  137  cd ..
+  138  ls
+  139  rm -r bin
+  140  ls
+  141  cd ..
+  142  pwd
+  143  cd Algo1
+  144  ls
+  145  mkdir bin
+  146  ls
+  147  cd logs
+  148  pwd
+  149  mkdir oldlogs
+  150  ls
+  151  cd oldlogs
+  152  mkdir 2019 2018 2017
+  153  ls
+  154  cd 2017
+  155  touch 2017.log
+  156  cd ..
+  157  cd 2018
+  158  touch 2018.log
+  159  cd ..
+  160  cd 2019
+  161  touch 2019.log
+  162  cd /home/ec2-user
+  163  ls
+  164  rm *.oldlogs
+  165  rm -r ~/Algo1/logs oldlogs
+  166  pwd
+  167  ls
+  168  rm -r /Algo1/logs oldlogs
+  169  rm -r ~/Algo1/logs oldlogs
+  170  cd Algo1
+  171  ls
+  172  mkdir logs
+  173  ls
+  174  cd logs
+  175  touch today.log
+  176  ls
+  177  mkdir 2017 2018 2019
+  178  ls
+  179  cd 2017
+  180  touch 2017.log
+  181  cd ..
+  182  cd 2018
+  183  touch 2018.log
+  184  cd ..
+  185  cd 2019
+  186  touch 2019.log
+  187  cd ..
+  188  ls
+  189  cd ..
+  190  cd /home
+  191  cd ec2-user
+  192  ls
+  193  pwd
+  194  ls ~/Algo1
+  195  ls ~/Algo1/logs
+  196  rm ~/Algo1/logs 2017 
+  197  ls
+  198  ls ~/Algo1
+  199  ls ~/Algo1/logs
+  200  pwd
+  201  rm ~/Algo1/logs/2017
+  202  rm -r  ~/Algo1/logs/2017
+  203  ls ~Algo1/logs
+  204  ls ~/Algo1/logs
+  205  rm -r  ~/Algo1/logs/2018
+  206  rm -r  ~/Algo1/logs/2019
+  207  ls ~/Algo1/logs
+  208  cd Algo1
+  209  cd logs
+  210  pwd
+  211  mkdir oldlogs
+  212  ls
+  213  cd oldlogs
+  214  mkdir 2017 2018 2019
+  215  ls
+  216  cd 2017
+  217  touhch 2017.log
+  218  touch 2017.log
+  219  cd ..
+  220  cd 2018
+  221  touch 2018.log
+  222  cd ..
+  223  cd 2019
+  224  touch 2019.log
+  225  ls
+  226  cd /home/ec2-user
+  227  pwd
+  228  rm -r  ~/Algo1/logs/oldlogs
+  229  ls  ~/Algo1/logs/
+  230  pwd
+  231  find /home -name*.sh
+  232  find /home -name *.sh
+  233  cd /Algo1/scripts
+  234  cd /Algo1/
+  235  cd Algo1
+  236  cd scripts
+  237  pwd
+  238  ls
+  239  rm s*.sh
+  240  ls
+  241  cd /home/ec2-user
+  242  pwd
+  243  ls
+  244  history > sauchoy.220405.module3
