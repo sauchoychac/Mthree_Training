@@ -1,0 +1,94 @@
+    1  ls
+    2  pwd
+    3  ls -l
+    4  cd bin
+    5  ls -ltr 
+    6  cd \
+    7  pwd
+    8  cd
+    9  ls
+   10  ls -l
+   11  cd /
+   12  ls -l
+   13  cd home
+   14  ls -ltr
+   15  ls -l
+   16  pwd
+   17  cd /
+   18  Authenticating with public key "imported-openssh-key"
+   19  cd /
+   20  pwd
+   21  ls
+   22  cd /
+   23  ls
+   24  cd /
+   25  ls
+   26  ls 
+   27  aclear
+   28  clear
+   29  ls -ltr
+   30  pwd
+   31  cat
+   32  pwd
+   33  cd /
+   34  ls 
+   35  cd var
+   36  ls
+   37  cd log
+   38  ls
+   39  pwd
+   40  clear
+   41  pwd
+   42  cd /var/log
+   43  pwd
+   44  cd -
+   45  cd /var/log
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  ls
+   50  ls -l
+   51  ls -l -r
+   52  cd /
+   53  cd home
+   54  pwd
+   55  ls
+   56  cd ..
+   57  pwd
+   58  help ls
+   59  help help
+   60  help -d
+   61  pwd
+   62  cd /var/log
+   63  cd ..
+   64  pwd
+   65  ls
+   66  ls -l
+   67  ls -lr
+   68  cd /
+   69  cd home
+   70  man ls
+   71  pwd
+   72  cd /var/log
+   73  cd ..
+   74  pwd
+   75  ls
+   76  ls -l
+   77  ls -lr
+   78  cd /
+   79  cd home
+   80  cd ..
+   81  man ls
+   82  cd /var
+   83  ls -lsr
+   84  uname -a
+   85  history > sauchoychac.220405.module2
+   86  cd home
+   87  cd/
+   88  cd /
+   89  cd home
+   90  pwd
+   91  ls
+   92  cd ec2-user
+   93  ls
+   94  history > sauchoy.220405.module2
