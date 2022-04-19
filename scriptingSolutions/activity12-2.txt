@@ -1,0 +1,7 @@
+Mouse
+Phone
+Pizza
+Switch
+Light
+Coin
+Watch

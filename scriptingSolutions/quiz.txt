@@ -1,0 +1,10 @@
+Q1: Jett is a Duelist;True
+Q2: Sova is a Initiator;True
+Q3: The Vandal is cheaper than the Phantom;False
+Q4: The Stinger is cheaper than the Spectre;True
+Q5: The Odin is the same price as the Ares;False
+Q6: The Marshall does the same damage as the Operator;False
+Q7: Reyna has two flashes;True
+Q8: Sova's Shockdart cost 150 each;True
+Q9: The Sherrif is cheaper than the Ghost;False
+Q10: The Shorty cost 150;True

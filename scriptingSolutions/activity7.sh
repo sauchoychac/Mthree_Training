@@ -1,36 +1,39 @@
 #!/bin/bash
 
-answer=""
+#Initialise Variables
+quiz_file=quiz.txt
+score=0
 
-echo "Question 1: Type True"
-read answer
-until [[ ${answer,,} =~ (true|false) ]]
-do
-        echo "Please Enter a Valid Answer:"
-        read answer
-done
-
-if [ ${answer,,} = true ]
+#Check if Quiz file exists in current directory
+if [ ! -f $quiz_file ]
 then
-	echo "Correct!"
-else
-	echo "Incorrect!"
-fi
-
-echo "Question 2: Type False"
-read answer
-until [[ ${answer,,} =~ (true|false) ]]
-do
-        echo "Please Enter a Valid Answer:"
-        read answer
-done
-
-if [ ${answer,,} = false ]
-then
-        echo "Correct!"
-else
-        echo "Incorrect!"
+	echo "Quiz file does not exist"
+	exit 1
 fi
 
 
+while IFS= read -r -u9 line
+do
+	question=`echo $line | awk -F';' '{print$1}'`
+	answer=`echo $line | awk -F';' '{print$2}'`
+        echo $question
+	read -p "True of False? " userAnswer
+	until [[ ${userAnswer,,} =~ (true|false) ]]
+	do
+		echo "Invalid Input"
+		read -p "True of False? " userAnswer
+	done
+	
+
+	if [[ ${userAnswer,,} == ${answer,,} ]]
+	then
+		echo "Correct"
+		((score++))
+	else
+		echo "Incorrect"
+	fi
+
+done 9< quiz.txt
+
+echo "You Scored" $score "/10"
 exit 0
